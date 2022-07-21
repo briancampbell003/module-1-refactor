@@ -14,16 +14,13 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
 #seo {
     color: #d9dcd6;
 }
-
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,41 +28,32 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 header nav ul {
     list-style-type: none;
 }
-
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* p {
-    font-size: 16px;
-} */
 
-.hero {
+.banner-img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
+
+/* Moved and renamed content classes to meaningful "what-we-do" and placed above "benefits" to correspond with html file. Consolidated selectors. */
 .what-we-do {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    
 }
-
 .what-we-do section {
     margin-bottom: 20px;
     padding: 50px;
@@ -74,27 +62,24 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 .what-we-do img {
     max-height: 200px;
 }
-
 .what-we-do h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Moved benefits formatting code to bottom of doc to correspond with this section's (aside's) placement in the html file */
+
+/* Moved benefits formatting code to bottom of doc to correspond with this section's (aside's) placement in the html file. Consolidated selectors. */
 .benefits {
     margin-right: 20px;
     margin-bottom: 32px;
@@ -107,16 +92,13 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
 .benefits p {
     margin-bottom: 32px;
 }
-
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefits img {
     display: block;
     margin: 10px auto;
