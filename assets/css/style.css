@@ -48,7 +48,7 @@ a {
 }
 
 
-/* Moved and renamed content classes to meaningful "what-we-do" and placed above "benefits" to correspond with html file. Consolidated selectors. */
+/* Renamed content classes to meaningful "what-we-do" and placed above "benefits" to correspond with html file. Consolidated selectors. */
 .what-we-do {
     width: 75%;
     display: inline-block;
@@ -79,7 +79,7 @@ a {
 }
 
 
-/* Moved benefits formatting code to bottom of doc to correspond with this section's (aside's) placement in the html file. Consolidated selectors. */
+/* Moved benefits formatting code to bottom of doc to correspond with this aside's placement in the html file. Consolidated selectors. */
 .benefits {
     margin-right: 20px;
     margin-bottom: 32px;
